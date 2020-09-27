@@ -1,0 +1,377 @@
+.logo1 {
+    width: 120px;
+}
+
+.MainImage {
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    margin-top: -50px;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.headerMainWrapper {
+    position: relative;
+}
+
+.menu-l {
+    height: 90px;
+}
+
+.menu-l-container {
+    height: 90px;
+}
+
+
+.mainTitle {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+  font-family: 'Rowdies', cursive;
+}
+
+/*//About section//*/
+#aboutwrapper {
+    padding: 5vh 5vw;
+    background-color: #fef2de;
+}
+
+.aboutTitle {
+    font-size: 75px;
+    text-align: center;
+    margin: 50px 0;
+  font-family: 'Rowdies', cursive;
+}
+
+.aboutsection2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutPictureWrapper {
+    width: 40%;
+    margin: 30px;
+}
+
+img.myPicture {
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.pictureText {
+    text-align: center;
+    font-family: 'Mansalva', cursive;
+    margin: 50px 0;
+    font-size: 50px;
+    transform: rotate(-10deg);
+}
+
+.myHistoryWrapper {
+    width: 60%;
+    margin: 30px;
+}
+
+.myHistory1 {
+    font-size: 30px;
+    margin: 40px 0;
+}
+
+.myHistory2 {
+    font-size: 30px;
+    margin: 40px 0;
+
+}
+
+.myHistory3 {
+    font-size: 30px;
+    margin: 40px 0;
+
+}
+
+/*//sectionSkill//*/
+.sectionSkill {
+    background-color: white;
+}
+
+.skillwrapper {
+    padding: 5vh 5vw;
+}
+
+.skillTitle {
+    font-size: 75px;
+    text-align: center;
+    margin: 50px 0;
+  font-family: 'Rowdies', cursive;
+}
+
+.discriptionWrapper {
+    text-align: center;
+}
+
+.discription1 {
+    font-size: 30px;
+    margin: 40px 0;
+    display: inline-block;
+
+}
+
+.discription2 {
+    font-size: 30px;
+    margin: 40px 0;
+    display: inline-block;
+
+}
+
+.subTitle {
+    text-align: center;
+    font-size: 50px;
+  font-family: 'Rowdies', cursive;
+}
+
+ul.list-inline.dev-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 75px;
+
+}
+
+i.fab.fa-html5{
+    margin: 30px;
+}i.fab.fa-css3-alt{
+    margin: 30px;
+}i.fab.fa-js-square{
+    margin: 30px;
+}i.fab.fa-react{
+    margin: 30px;
+}i.fab.fa-node-js{
+    margin: 30px;
+}i.fab.fa-sass{
+    margin: 30px;
+}i.fab.fa-npm{
+    margin: 30px;
+}i.fab.fa-github-square{
+    margin: 30px;
+}
+
+
+/*//Card section//*/
+#sectionwork{
+    background-color: #fef2de;
+}
+
+.workTitle{
+    font-size: 75px;
+    text-align: center;
+    margin: 50px 0;
+    font-family: 'Rowdies', cursive;
+}
+.workwrapper{
+    padding: 5vh 5vw;
+}
+.cardwrapper{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 40px 0;
+    justify-content: space-evenly;
+
+}
+.card {
+    width: 240px;
+    display: block;
+    margin: 60px auto;
+    transition: 0.25s;
+}
+.card:hover {
+    box-shadow:10px 0px 40px 15px #bfbbf0;
+    cursor: pointer;
+}
+.card:hover .button-primary {
+    transform: translate(10px, 0);
+}
+
+.card-header {
+    height: 150px;
+    width: 100%;
+    padding: 15px;
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+}
+
+.card-header--title {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.card-body {
+    padding: 15px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.date {
+    font-size: 11px;
+    font-weight: 600;
+    color: grey;
+}
+
+.body-content {
+    padding-bottom: 40px;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.button-primary {
+    border: none;
+    box-shadow: none;
+    font-family: inherit;
+    background-color: transparent;
+    color: #341cac;
+    font-size: 15px;
+    transition: 0.25s;
+}
+.button-primary i {
+    padding-right: 4px;
+}
+
+.designer-link {
+    color: #fff;
+    text-align: center;
+    fon-size: 12px;
+    text-decoration: none;
+    display: block;
+}
+/*//sectionfooter//*/
+
+.iconwrapper
+{
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.iconwrapper .button
+{
+
+    width:60px;
+    height:60px;
+    margin:0 5px;
+    background: #fff;
+    float:left;
+    border-radius: 50px;
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    cursor:pointer;
+    overflow:hidden;
+    transition:width .5s ease-in-out;
+
+}
+.iconwrapper .button:hover
+{
+    width:200px;
+}
+.iconwrapper .button:nth-child(1):hover .icon{background: #4267B2;color:#fff;}
+
+.iconwrapper .button:nth-child(2):hover .icon{background:#1DA1F2;color:#fff;}
+
+.iconwrapper .button:nth-child(3):hover .icon{background:#E1306C;color:#fff;}
+
+.iconwrapper .button:nth-child(4):hover .icon{background:#333;color:#fff;}
+
+.iconwrapper .button:nth-child(5):hover .icon{background:#FF0000;color:#fff;}
+
+.iconwrapper .button:nth-child(1):hover span{color:#4267B2;display:inline-block;text-decoration: none}
+.iconwrapper .button:nth-child(2):hover span{color:#1DA1F2;display:inline-block;text-decoration: none}
+.iconwrapper .button:nth-child(3):hover span{color:#E1306C;display:inline-block;text-decoration: none}
+.iconwrapper .button:nth-child(4):hover span{color:#333;display:inline-block;text-decoration: none}
+.iconwrapper .button:nth-child(5):hover span{color:#FF0000;display:inline-block;text-decoration: none}
+.iconwrapper .button .icon
+{
+    display:inline-block;
+    border-radius: 50px;
+    height:60px;
+    width:60px;
+    /*line-height: 60px;*/
+    text-align: center;
+}
+.iconwrapper .button .icon i
+{
+    font-size:25px;
+    line-height:60px;
+    transition:all .2s ease-in-out;
+}
+.iconwrapper .button span
+{
+    font-size:20px;
+    font-weight: 500;
+    line-height: 0px;
+    margin-left:10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*//contact//*/
+
+.footerimage{
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+}
+#footerwrapper{
+    position: relative;
+}
+.contactbandle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)!important;
+    display: block;
+
+}
+.contactTitle{
+    font-family: 'Rowdies', cursive;
+    color: white;
+    text-align: center;
+    margin:50px;
+}
+
+
+.iconTitle{
+    font-family: 'Rowdies', cursive;
+    color: white;
+    text-align: center;
+    margin:50px;
+}
+.myAdress{
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.myAdress:hover{
+    color: #bfbbf0;
+    transition-duration: 0.5s;
+}
+p.copyRight{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
